@@ -13,7 +13,7 @@ PLC Flow and level control station
 ## BOM control loop electronics
 * [24V 3/4" motorized ball valve, aliexpress](https://www.aliexpress.com/item/1005003214000529.html)
 * [24V 3/4" solenoid valve, aliexpress](https://www.aliexpress.com/item/32877075180.html)
-* [24V 1/2" pump, aliexpress)[https://www.aliexpress.com/item/1005005034206009.html)
+* [24V 1/2" pump, aliexpress](https://www.aliexpress.com/item/1005005034206009.html)
 * [24V 4-20mA Liquid level sensor, aliexpress](https://www.aliexpress.com/item/1005004309828489.html)
 * [24V Flow sensor, hall effect turbine, aliexpress](https://www.aliexpress.com/item/4001086173229.html)
 * [24V SICK Capacitive sensor, CM18-12NPP-KC1](https://cdn.sickcn.com/media/pdf/7/47/247/dataSheet_CM18-12NPP-KC1_6020410_en.pdf)
