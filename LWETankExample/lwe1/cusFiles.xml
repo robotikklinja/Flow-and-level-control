@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CustomizeFiles>
+    <CustomizeComponent xmlFileName="C:\Program Files\lwe\lwe\buildInCustomizeComponents\analogValue\comp.xml" count="1">
+        <ComponentIDs>
+            <ComponentID>4d77b6085def79842930</ComponentID>
+        </ComponentIDs>
+        <Files>
+            <File>js\anavalue.js</File>
+        </Files>
+    </CustomizeComponent>
+    <CustomizeComponent xmlFileName="C:\Program Files\lwe\lwe\buildInCustomizeComponents\trendView\comp.xml" count="1">
+        <ComponentIDs>
+            <ComponentID>4aeaa3b1fe68b575a022</ComponentID>
+        </ComponentIDs>
+        <Files>
+            <File>js\trend.js</File>
+        </Files>
+    </CustomizeComponent>
+</CustomizeFiles>

@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page height="567" width="1200">
+    <Components>
+        <Component class="com.siemens.logo.udwp.editor.component.PageComponent" id="main" name="Page">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Page"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="main"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="0"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="0@-@0"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="1200@-@567"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="3000@-@3000"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BasicProperty$PageBackgroundImage" id="PROPERTY_PAGE_BG_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\GhostWhite.png@-@8CB29CCA.png@-@@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.RectangleComponent" id="4d1bb5c2c7b8cb5bc9f4" name="Rectangle">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Rectangle"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4d1bb5c2c7b8cb5bc9f4"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="1"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="248@-@29"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="65@-@384"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="30@-@30"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BorderProperty$BorderWidth" id="PROPERTY_BorderWidth" value="1"/>
+            <ComponentProperty class="BorderProperty$Style" id="PROPERTY_BorderStyle" value="Solid"/>
+            <ComponentProperty class="BorderProperty$BorderColor" id="PROPERTY_BorderColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$Transparency" id="PROPERTY_Transparency" value="0"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="459981a84001a11bc643" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="459981a84001a11bc643"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="2"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="476@-@451"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Manual pump control"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.AnalogSliderComponent" id="43929545086fddf9a4a6" name="AnalogSlider">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="AnalogSlider"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="43929545086fddf9a4a6"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="3"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="454@-@413"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="40@-@135"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="40@-@40"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Manual output"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VW"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="2"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Word"/>
+            <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
+            <ComponentProperty class="AnalogFormatProperty$AnalogSliderDecimalPalcesProperty" id="PROPERTY_DECIMAL_PLACES" value=""/>
+            <ComponentProperty class="AnimationProperty$MaxValueProperty" id="PROPERTY_ANALOG_MAX" value="1000"/>
+            <ComponentProperty class="AnimationProperty$MinValueProperty" id="PROPERTY_ANALOG_MIN" value="0"/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="true"/>
+            <ComponentProperty class="AnimationProperty$SliderBgImageProperty" id="PROPERTY_SLIDER_BG_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\uibg5.png@-@uibg5.png@-@uibg5.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$SliderHandlerImageProperty" id="PROPERTY_SLIDER_HDL_IMG" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\uibg2.png@-@uibg2.png@-@uibg2.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.customize.BasicCustomizeComponent" id="4aeaa3b1fe68b575a022" name="TrendView">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="TrendView"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4aeaa3b1fe68b575a022"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="4"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="652@-@227"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="548@-@329"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$OneLineNormalTextValue" id="PROPERTY_TREND_TITLE_TEXT_VALUE" value="Trend view at 1s intervals (50s tot)"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_TREND_TITLE_FONT" value="Arial@-@0@-@18"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TREND_TITLE_FONT_COLOR" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TREND_TITLE_ALIGN" value="0"/>
+            <ComponentProperty class="AnalogFormatProperty$IntervalTimeProperty" id="PROPERTY_INTERVAL_TIME" value="1"/>
+            <ComponentProperty class="TrendViewTagsProperty" id="PROPERTY_TREND_VIEW_TAGS" value="[{&quot;id&quot;:&quot;5ae94e8b-2803-4e56-a3e9-1c1d9f6c0b3b&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;Set point&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VW&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;0&quot;,&quot;realvalue&quot;:&quot;0&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;Word&quot;,&quot;realvalue&quot;:&quot;4&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;-256&quot;,&quot;realvalue&quot;:&quot;-256&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;423ffb80-016e-4778-ab1d-1e784ce01ba4&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;Process Value&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VW&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;6&quot;,&quot;realvalue&quot;:&quot;48&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;Word&quot;,&quot;realvalue&quot;:&quot;4&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;-16763956&quot;,&quot;realvalue&quot;:&quot;-16763956&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;},{&quot;id&quot;:&quot;3a150a00-9932-410b-93c8-54f4afcd8846&quot;,&quot;deviceName&quot;:&quot;Local Device&quot;,&quot;name&quot;:&quot;Output&quot;,&quot;blockType&quot;:{&quot;value&quot;:&quot;VW&quot;,&quot;realvalue&quot;:&quot;132&quot;},&quot;blockNum&quot;:{&quot;value&quot;:&quot;8&quot;,&quot;realvalue&quot;:&quot;64&quot;},&quot;type&quot;:{&quot;value&quot;:&quot;Word&quot;,&quot;realvalue&quot;:&quot;4&quot;},&quot;length&quot;:{&quot;value&quot;:&quot;1&quot;,&quot;realvalue&quot;:&quot;1&quot;},&quot;color&quot;:{&quot;value&quot;:&quot;-52429&quot;,&quot;realvalue&quot;:&quot;-52429&quot;},&quot;blockFormat&quot;:&quot;Unsigned&quot;,&quot;decimalPlaces&quot;:&quot;0&quot;}]"/>
+            <ComponentProperty class="TrendViewXAxisTotalStepSizeProperty" id="PROPERTY_TREND_VIEW_STEPSIZE" value="50"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.RectangleComponent" id="43989d7916f5202a347f" name="Rectangle">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Rectangle"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="43989d7916f5202a347f"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="5"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="266@-@17"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="32@-@79"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="30@-@30"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BorderProperty$BorderWidth" id="PROPERTY_BorderWidth" value="1"/>
+            <ComponentProperty class="BorderProperty$Style" id="PROPERTY_BorderStyle" value="Solid"/>
+            <ComponentProperty class="BorderProperty$BorderColor" id="PROPERTY_BorderColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="204@-@204@-@204"/>
+            <ComponentProperty class="BorderProperty$Transparency" id="PROPERTY_Transparency" value="0"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="true"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="4962b2c28484f7538ecb" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4962b2c28484f7538ecb"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="6"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="688@-@130"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="80@-@80"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="M"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="M1"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\pb_go.png@-@pb_go.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\pb_stop.png@-@pb_stop.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value="AUTO"/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value="MANUAL"/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="true"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@12"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="4bdcb0c93d032e54b010" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4bdcb0c93d032e54b010"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="7"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="99@-@339"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="115@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I1"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\Default.png@-@Default.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Blue.png@-@86326007.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value=""/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value=""/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="479fbd08f4ee051c5c6a" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="479fbd08f4ee051c5c6a"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="8"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="99@-@263"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="115@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I2"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\Default.png@-@Default.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Blue.png@-@86326007.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value=""/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value=""/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="49dda1c401fb0c3db38b" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="49dda1c401fb0c3db38b"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="9"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="99@-@185"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="115@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I8"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\Default.png@-@Default.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Blue.png@-@86326007.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value=""/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value=""/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="4de48a4de99a665d3951" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4de48a4de99a665d3951"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="10"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="99@-@99"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="115@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I9"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\Default.png@-@Default.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Blue.png@-@86326007.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value=""/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value=""/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.AnalogSliderComponent" id="448aad8cd00b3714a138" name="AnalogSlider">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="AnalogSlider"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="448aad8cd00b3714a138"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="11"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="422@-@109"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="40@-@254"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="40@-@40"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Set point"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VW"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="0"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Word"/>
+            <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
+            <ComponentProperty class="AnalogFormatProperty$AnalogSliderDecimalPalcesProperty" id="PROPERTY_DECIMAL_PLACES" value=""/>
+            <ComponentProperty class="AnimationProperty$MaxValueProperty" id="PROPERTY_ANALOG_MAX" value="720"/>
+            <ComponentProperty class="AnimationProperty$MinValueProperty" id="PROPERTY_ANALOG_MIN" value="100"/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="true"/>
+            <ComponentProperty class="AnimationProperty$SliderBgImageProperty" id="PROPERTY_SLIDER_BG_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\uibg5.png@-@uibg5.png@-@uibg5.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$SliderHandlerImageProperty" id="PROPERTY_SLIDER_HDL_IMG" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\uibg2.png@-@uibg2.png@-@uibg2.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4fc59df30e2a6db3f303" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4fc59df30e2a6db3f303"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="12"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="475@-@209"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="134@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Set target level for automatic pump control here"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CircleComponent" id="4edbb786d5805bf2ae79" name="Circle">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Circle"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4edbb786d5805bf2ae79"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="13"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="346@-@424"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="116@-@110"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="30@-@30"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BorderProperty$BorderWidth" id="PROPERTY_BorderWidth" value="1"/>
+            <ComponentProperty class="BorderProperty$Style" id="PROPERTY_BorderStyle" value="Solid"/>
+            <ComponentProperty class="BorderProperty$BorderColor" id="PROPERTY_BorderColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="204@-@204@-@204"/>
+            <ComponentProperty class="BorderProperty$Transparency" id="PROPERTY_Transparency" value="0"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="true"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="499e9140224786715714" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="499e9140224786715714"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="14"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="354@-@451"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="100@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="PUMP"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="46ccaa31684f9af5d024" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="46ccaa31684f9af5d024"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="15"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="637@-@90"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Toggle for Pump control mode"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="4632a6bba4c53f4b8c09" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4632a6bba4c53f4b8c09"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="16"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="877@-@99"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="164@-@75"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I11"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\SeaGreen.png@-@D2D79FED.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Red.png@-@D4F306E5.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value="NORMAL"/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value="EMERGENCY STOP"/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4edd96b606bc848b4c40" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4edd96b606bc848b4c40"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="17"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="868@-@60"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="STATUS INFORMATION"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.customize.AnalogCustomizeComponent" id="4d77b6085def79842930" name="AnalogValue">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="AnalogValue"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4d77b6085def79842930"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="18"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="67@-@402"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="147@-@51"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="38@-@38"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Frequency"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VW"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="4"/>
+            <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Word"/>
+            <ComponentProperty class="AnalogFormatProperty$DecimalPalcesProperty" id="PROPERTY_DECIMAL_PLACES" value="0"/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="0"/>
+            <ComponentProperty class="AnalogFormatProperty$UnitProperty" id="PROPERTY_UNIT" value="pulses/s"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.ImageComponent" id="4b4a8cfb7b95d723a0bf" name="Image">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Image"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4b4a8cfb7b95d723a0bf"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="19"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="255@-@394"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="50@-@67"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BasicProperty$BackgroundImage" id="PROPERTY_Image" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Pipes\d_flange_h_3d.png@-@EAA03FDC.png@-@Default.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="495e8f20ab0372a55871" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="495e8f20ab0372a55871"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="20"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="0@-@402"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="83@-@51"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Out flow"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4d67acb5850708f64064" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4d67acb5850708f64064"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="21"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="64@-@336"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Cap.Sens 1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4487b13f00f2709a9a40" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4487b13f00f2709a9a40"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="22"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="59@-@260"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Cap.Sens 2"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4e99acab7120f91013b2" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4e99acab7120f91013b2"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="23"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="64@-@181"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Cap.Sens 3"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="42f38724ee00d45e30df" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="42f38724ee00d45e30df"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="24"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="65@-@98"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@53"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Cap.Sens 4"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="430c96bfc4767932de10" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="430c96bfc4767932de10"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="25"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="86@-@40"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Overflill sensor"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.ImageComponent" id="483fb476196806809699" name="Image">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Image"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="483fb476196806809699"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="26"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="208@-@263"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="65@-@54"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BasicProperty$BackgroundImage" id="PROPERTY_Image" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Sensors\wavefront_m_right.png@-@C8DC8A14.png@-@Default.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.ImageComponent" id="47708ca14e9be8c6df92" name="Image">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Image"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="47708ca14e9be8c6df92"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="27"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="208@-@335"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="65@-@54"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BasicProperty$BackgroundImage" id="PROPERTY_Image" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Sensors\wavefront_m_right.png@-@C8DC8A14.png@-@Default.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.ImageComponent" id="403ba98e947086094cc7" name="Image">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Image"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="403ba98e947086094cc7"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="28"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="204@-@181"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="65@-@54"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BasicProperty$BackgroundImage" id="PROPERTY_Image" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Sensors\wavefront_m_right.png@-@C8DC8A14.png@-@Default.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.ImageComponent" id="4af29e31c1788e269abe" name="Image">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Image"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4af29e31c1788e269abe"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="29"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="204@-@97"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="65@-@54"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BasicProperty$BackgroundImage" id="PROPERTY_Image" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Sensors\wavefront_m_right.png@-@C8DC8A14.png@-@Default.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4bae9cea1a76b14437d0" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4bae9cea1a76b14437d0"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="30"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="462@-@90"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="100@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Max depth for analog sensor range"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.ImageComponent" id="4570a643e0a8041738e4" name="Image">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Image"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4570a643e0a8041738e4"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="31"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="230@-@430"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="100@-@100"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1944@-@969"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BasicProperty$BackgroundImage" id="PROPERTY_Image" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Basins\basin2_empty_3d.png@-@2D491AB6.png@-@Default.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="49df8a1fb50bf3c35ff3" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="49df8a1fb50bf3c35ff3"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="32"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="483@-@0"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="463@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@24"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Water control station"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4cfd8c5271c661412f90" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4cfd8c5271c661412f90"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="33"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="230@-@451"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="100@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1544@-@969"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="TANK2"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4a2aacae80235849d184" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4a2aacae80235849d184"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="34"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="67@-@467"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="100@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1544@-@969"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="TANK1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.LineComponent" id="4e5bb8d8ae7bb6f496e0" name="Polyline">
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4e5bb8d8ae7bb6f496e0"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="35"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Polyline"/>
+            <ComponentProperty class="LineProperty$Weight" id="PROPERTY_Draw_Weight" value="1"/>
+            <ComponentProperty class="LineProperty$LineColor" id="PROPERTY_Draw_Color" value="0@-@0@-@0"/>
+            <ComponentProperty class="LineProperty$Dashed" id="PROPERTY_Draw_Dashed" value="Solid"/>
+            <ComponentProperty class="LineProperty$Transparency" id="PROPERTY_Transparency" value="0"/>
+            <ComponentProperty class="LineProperty$Points" id="PROPERTY_Draw_Points" value="404,432###405,10###296,10###296,10###297,43###297,43###"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.LineComponent" id="4d18a94cd635928c6bac" name="Polyline">
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4d18a94cd635928c6bac"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="36"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Polyline"/>
+            <ComponentProperty class="LineProperty$Weight" id="PROPERTY_Draw_Weight" value="1"/>
+            <ComponentProperty class="LineProperty$LineColor" id="PROPERTY_Draw_Color" value="0@-@0@-@0"/>
+            <ComponentProperty class="LineProperty$Dashed" id="PROPERTY_Draw_Dashed" value="Solid"/>
+            <ComponentProperty class="LineProperty$Transparency" id="PROPERTY_Transparency" value="0"/>
+            <ComponentProperty class="LineProperty$Points" id="PROPERTY_Draw_Points" value="293,35###293,35###298,46###298,46###303,34###303,34###"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.LineComponent" id="494aa2c74786d98ebc65" name="Polyline">
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="494aa2c74786d98ebc65"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="37"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Polyline"/>
+            <ComponentProperty class="LineProperty$Weight" id="PROPERTY_Draw_Weight" value="1"/>
+            <ComponentProperty class="LineProperty$LineColor" id="PROPERTY_Draw_Color" value="0@-@0@-@0"/>
+            <ComponentProperty class="LineProperty$Dashed" id="PROPERTY_Draw_Dashed" value="3"/>
+            <ComponentProperty class="LineProperty$Transparency" id="PROPERTY_Transparency" value="0"/>
+            <ComponentProperty class="LineProperty$Points" id="PROPERTY_Draw_Points" value="346,116###465,115###"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="47deb117c9407fe130ab" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="47deb117c9407fe130ab"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="38"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="990@-@499"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="183@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Click to enlarge trend view"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4bfdb4ef1dbe0b379a7c" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4bfdb4ef1dbe0b379a7c"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="39"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="476@-@330"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="100@-@57"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Min depth for analog sensor range"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.LineComponent" id="4b9cadd52b61824af87d" name="Polyline">
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4b9cadd52b61824af87d"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="40"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Polyline"/>
+            <ComponentProperty class="LineProperty$Weight" id="PROPERTY_Draw_Weight" value="1"/>
+            <ComponentProperty class="LineProperty$LineColor" id="PROPERTY_Draw_Color" value="0@-@0@-@0"/>
+            <ComponentProperty class="LineProperty$Dashed" id="PROPERTY_Draw_Dashed" value="3"/>
+            <ComponentProperty class="LineProperty$Transparency" id="PROPERTY_Transparency" value="0"/>
+            <ComponentProperty class="LineProperty$Points" id="PROPERTY_Draw_Points" value="347,354###473,354###"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="4813ac3b54b4860a07c9" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4813ac3b54b4860a07c9"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="41"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="250@-@339"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="62@-@70"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I1"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\Default.png@-@Default.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Azure.png@-@4988926F.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value=""/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value=""/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.ImageComponent" id="4d09aa9343844976c1af" name="Image">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Image"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4d09aa9343844976c1af"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="42"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="313@-@455"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="59@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="90"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="BasicProperty$BackgroundImage" id="PROPERTY_Image" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Pipes\d_flange_h_3d.png@-@EAA03FDC.png@-@Default.png@-@null"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="4fdbab01928d8832dc72" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4fdbab01928d8832dc72"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="43"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="250@-@60"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="62@-@70"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I9"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Crimson.png@-@0B1114AF.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Azure.png@-@4988926F.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value=""/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value=""/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.CustomizedComponent" id="4e209c734cc2e0b1376d" name="SwitchButton">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="SwitchButton"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4e209c734cc2e0b1376d"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="44"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="257@-@44"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="50@-@50"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Private Tag"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="I"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="I10"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Bit"/>
+            <ComponentProperty class="AnimationProperty$OnImage" id="PROPERTY_ON_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Build-In Graph\Default\Default.png@-@Default.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OffImage" id="PROPERTY_OFF_IMAGE" value="C:\Program Files\lwe\lwe\res\Graph Library\Colors\Blue.png@-@86326007.png@-@Default.png@-@null"/>
+            <ComponentProperty class="AnimationProperty$OnText" id="PROPERTY_ON_TEXT" value=""/>
+            <ComponentProperty class="AnimationProperty$OffText" id="PROPERTY_OFF_TEXT" value=""/>
+            <ComponentProperty class="LogoBindingProperty$Mode" id="PROPERTY_Mode" value="false"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@10"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="1"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.AnalogBarComponent" id="4a089b8fd6daacd40b83" name="AnalogBar">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="AnalogBar"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4a089b8fd6daacd40b83"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="45"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="250@-@110"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="109@-@255"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="70@-@70"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="2040@-@1197"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="LogoBindingProperty$TagName" id="PROPERTY_Tag_Name" value="Process Value"/>
+            <ComponentProperty class="LogoBindingProperty$IOTThingNameProperty" id="PROPERTY_DeviceName" value="Local Device"/>
+            <ComponentProperty class="LogoBindingProperty$BlockType" id="PROPERTY_BlockType" value="VW"/>
+            <ComponentProperty class="LogoBindingProperty$BlockNumber" id="PROPERTY_BlockNumber" value="6"/>
+            <ComponentProperty class="LogoBindingProperty$VariableLength" id="PROPERTY_Length" value="1"/>
+            <ComponentProperty class="LogoBindingProperty$AccessMode" id="PROPERTY_AccessMode" value="Word"/>
+            <ComponentProperty class="AnalogFormatProperty$BlockFormatProperty" id="PROPERTY_BlockFormat" value="Unsigned"/>
+            <ComponentProperty class="AnalogFormatProperty$AnalogBarDecimalPalcesProperty" id="PROPERTY_DECIMAL_PLACES" value=""/>
+            <ComponentProperty class="AnimationProperty$AnalogBarMaxValueProperty" id="PROPERTY_ANALOG_BAR_MAX" value="720"/>
+            <ComponentProperty class="AnimationProperty$AnalogBarMinValueProperty" id="PROPERTY_ANALOG_BAR_MIN" value="100"/>
+            <ComponentProperty class="AnimationProperty$AnalogBarScaleValueProperty" id="PROPERTY_ANALOG_BAR_SCALE" value="72.0"/>
+            <ComponentProperty class="AnalogBarDynamicColorProperty" id="PROPERTY_ANALOG_VAL_BAR_COLOR" value="720.0,100.0,100.0:286.0:-8355712,286.62:472.0:-12156236,472.62:720.0:-5952982"/>
+            <ComponentProperty class="AnalogBarProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@14"/>
+            <ComponentProperty class="AnalogBarProperty$FontColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BorderProperty$AnalogBarBorderColor" id="PROPERTY_BorderColor" value="0@-@0@-@0"/>
+        </Component>
+        <Component class="com.siemens.logo.udwp.editor.component.TextComponent" id="4e7e8c73d10ad16a1f9e" name="Text">
+            <ComponentProperty class="NameProperty" id="PROPERTY_Name" value="Text"/>
+            <ComponentProperty class="BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="4e7e8c73d10ad16a1f9e"/>
+            <ComponentProperty class="BasicProperty$ZIndex" id="PROPERTY_ZIndex" value="46"/>
+            <ComponentProperty class="BoundsProperty$Location" id="PROPERTY_Location" value="422@-@8"/>
+            <ComponentProperty class="BoundsProperty$Size" id="PROPERTY_Size" value="659@-@91"/>
+            <ComponentProperty class="BasicProperty$Degree" id="PROPERTY_Degree" value="0"/>
+            <ComponentProperty class="BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="1150@-@517"/>
+            <ComponentProperty class="BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="50@-@50"/>
+            <ComponentProperty class="BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910"/>
+            <ComponentProperty class="BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0"/>
+            <ComponentProperty class="TextStyleProperty$FontStyle" id="PROPERTY_Font" value="Arial@-@0@-@12"/>
+            <ComponentProperty class="TextStyleProperty$TextColor" id="PROPERTY_TextColor" value="0@-@0@-@0"/>
+            <ComponentProperty class="BasicColorProperty$BackgroundColorProperty" id="PROPERTY_backgroundColor" value="255@-@255@-@255"/>
+            <ComponentProperty class="BorderProperty$NoFill" id="PROPERTY_NoFill" value="false"/>
+            <ComponentProperty class="TextStyleProperty$TextAlgin" id="PROPERTY_TEXT_ALIGN" value="0"/>
+            <ComponentProperty class="TextStyleProperty$TextValue" id="PROPERTY_Text" value="Water pump can be controlled manually or automatically to keep the water  at a set target level within the sensor range"/>
+        </Component>
+    </Components>
+</Page>

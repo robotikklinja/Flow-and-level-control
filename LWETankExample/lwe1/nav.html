@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <style type="text/css">
+        .nav{
+            position:relative; 
+            margin:0;
+            //margin-left:200px;
+            padding:0;
+            top:0;
+            left:0;
+            z-index:999;
+            width:195px;
+        }
+        .menu{
+            z-index:999;
+            width:195px
+            //height:100%;
+            //background-color:#48a770;
+            background-color:rgb(158, 157, 131);
+            position:absolute;
+            top:0px;
+            left:0px;
+            opacity:1;	
+        }
+        .items div{
+            border-top:1px solid black;
+            //padding-top:1em;
+            //padding-bottom:1em;
+            height: 50px;
+            line-height: 50px;
+            text-align:center;
+            text-overflow: ellipsis; 
+            overflow: hidden; 
+            white-space: nowrap; 
+            vertical-align:middle;
+            //MARGIN-LEFT: auto;
+            //word-wrap:break-word;
+        }
+        .items{	
+            z-index:999;
+            width:195px;
+        }
+        .item {
+            z-index:999;
+            color: #f3efe0;
+            letter-spacing: 1px;
+            font-weight: 400;  
+            text-decoration:none;
+        }
+	.items div:last-child a {
+           // color:#48a770;
+        }
+	.items div:last-child{
+            //border: 1px dashed #48a770;
+            //background-color:white;	
+        }
+        .menuTitle{	
+            z-index:999;
+            color: #f3efe0;
+            text-align:center;
+            text-shadow: 0 0 1px rgba(0,0,0,0.1);
+            font-weight: 300;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        </style>
+        <link href="js/jqueryui/jqueryui.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jqueryui/jqueryui.js"></script>
+        <script type="text/javascript" src="js/edit.js"></script> 
+        <script type="text/javascript" src="js/analog.js"></script>
+        <title></title>
+    </head>
+    <body onload="loadNavPage()">
+       <CENTER>
+        <div id="nav" class="nav">
+            <div class="menu" id="menu">
+                <div>
+                    <div class="menuTitle"><h2>Navigation</h2></div>
+                    <div id="items" class="items">
+			<div id="logOff"><a class="item" href="javascript:;" onclick="return renderJs.logout();">LOG OFF</a></div>
+			<!--<div><a class="item">+ Add New Item</a></div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+      </CENTER>
+    </body>
+</html>

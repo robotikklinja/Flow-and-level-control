@@ -1,0 +1,597 @@
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+
+
+
+<META charset="UTF-8"> 
+        
+
+
+
+<STYLE type="text/css">
+            #main{
+                position:relative; 
+                margin:0;
+                padding:0;
+                top:0;
+                left:0;
+                background-color: white;
+                //border:1px solid red;
+                background:-webkit-linear-gradient(60deg, white 0px, black 1px, red 0px, white 0px) 25px -24px;
+                background:-moz-linear-gradient(60deg, white 0px, black 1px, red 0px, white 0px) 25px -24px;
+                background:-o-linear-gradient(60deg, white 0px, black 1px, red 0px, white 0px) 25px -24px;
+                background:linear-gradient(60deg, white 0px, black 1px, red 0px, white 0px) 25px -24px;
+                background-size: 10px 10px;
+            }
+            .textCenter{   
+                //MARGIN-LEFT: auto;
+                vertical-align:middle;
+                text-align:center;
+                //word-wrap:break-word;
+                text-overflow: ellipsis; 
+                overflow: hidden; 
+                white-space: nowrap; 
+            }
+        </STYLE>
+        
+
+
+
+<LINK href="js/jqueryui/jqueryui.css" rel="stylesheet" type="text/css">
+        
+
+
+
+<SCRIPT type="text/javascript" src="js/jquery.js"></SCRIPT>
+        <SCRIPT type="text/javascript" src="js/jqueryui/jqueryui.js"></SCRIPT>
+        <SCRIPT type="text/javascript" src="js/load.js"></SCRIPT>
+        <SCRIPT type="text/javascript" src="js/map.js"></SCRIPT>
+        <SCRIPT type="text/javascript" src="js/echart.js"></SCRIPT>
+        <SCRIPT type="text/javascript" src="js/edit.js"></SCRIPT>
+        <SCRIPT type="text/javascript" src="js/analog.js"></SCRIPT>
+        
+
+
+
+<TITLE></TITLE>
+    
+
+
+
+<SCRIPT src="js/anavalue.js?rdm=1714636408548" type="text/javascript" id="js/anavalue.js"></SCRIPT><SCRIPT src="js/trend.js?rdm=1714636408548" type="text/javascript" id="js/trend.js"></SCRIPT>
+
+
+
+</HEAD>
+    
+
+
+
+<BODY onload="loadEditPage()">
+        
+
+
+
+<DIV id="main" onclick="renderJs.hideMenu()" prefix="Siemens" style="width: 1180px; height: 547px; left: 0px; top: 0px; text-align: center; margin: 0px; padding: 0px; background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/8CB29CCA.png); background-size: 1180px 547px; background-position: 0px 0px; background-repeat: no-repeat no-repeat;" bg_image="img/8CB29CCA.png">
+
+
+
+
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 476px; top: 451px; width: 167px; height: 41px; background-size: 167px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 3; background-repeat: no-repeat no-repeat;" id="459981a84001a11bc643" degree="0" text_align="center">    
+
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 41px;">Manual pump control</P>
+
+
+
+</DIV>
+
+
+
+<DIV comp_type="AnalogSliderComponent" show_function="_callback_loadAnalogSliderComponent" class="server_binding analog_slider" maxval="1000" minval="0" hdl_img="img/uibg2.png" bar_img="img/uibg5.png" range="132" address="16" type="4" length="1" show_param="43929545086fddf9a4a6" id="43929545086fddf9a4a6" style="position: absolute; left: 454px; top: 413px; width: 24px; height: 119px; background-size: 24px 120px; transform: rotate(0deg); z-index: 4; background-repeat: no-repeat no-repeat;" degree="0" tag_id="4d3ad663-6a8d-42f2-9808-e4165e2fb5aa" device_name="" block_format="Unsigned" decimal="1" mode="true">    
+
+
+<DIV class="analog_slider_comp analog_set_val ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" style="width: 15px; height: 117px; margin-right: auto; margin-bottom: 0px; margin-left: auto; background-size: 15px 117px; background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/uibg5.png);">
+
+
+<SPAN class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="margin-top: 47.5px; width: 24px; height: 24px; background-size: 24px 24px; cursor: pointer; background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/uibg2.png);"></SPAN>
+
+
+</DIV>    
+
+
+<INPUT type="hidden" class="analogValue" value="0/">    <INPUT type="hidden" class="analogValueColor" value="">
+
+
+</DIV>
+
+
+<DIV class="trend" id="4aeaa3b1fe68b575a022" comp_type="cus_rainbowComponent" style="width: 532px; height: 313px; position: absolute; left: 652px; top: 227px; border: 0px solid lightgray; transform: rotate(0deg); z-index: 5;" max_count="50" interval_time="1" title_family="Arial" title_style="normal" title_size="18" degree="0" title_text="Trend view at 1s intervals (50s tot)" title_weight="" legend_size="12" title_color="rgb(0,0,0)" text_align="left">	
+
+
+<DIV id="view" style="width: 99%; height: 99%; border: 0px solid black; position: relative;" _echarts_instance_="ec_1714634712442">
+<DIV style="overflow: hidden; position: relative; width: 527px; height: 310px; background-color: transparent; background-position: initial initial; background-repeat: initial initial;">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" baseProfile="full" width="527" height="310" style="position: absolute; left: 0px; top: 0px;">
+<path d="M 10.5 230 L 10.5 77.5" fill="none" stroke="#333" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" clip-path="none"></path>
+<path d="M 10.54 230.5 L 484.84 230.5" fill="none" stroke="#333" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="10" clip-path="none"></path>
+<path d="M 247.5 230 L 247.5 235" fill="none" stroke="#333" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" clip-path="none"></path>
+<text alignment-baseline="hanging" x="0" y="0" fill="#333" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,247.6899871826172,238)" clip-path="none" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial;">
+<tspan alignment-baseline="hanging" text-anchor="middle" x="0" y="0">09:25:12</tspan>
+</text>
+<path d="" fill="none" stroke="#ffff00" stroke-width="2" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="bevel" stroke-miterlimit="10" clip-path="url(#zr2322-clip-2)"></path>
+<path d="" fill="none" stroke="#0033cc" stroke-width="2" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="bevel" stroke-miterlimit="10" clip-path="url(#zr2322-clip-3)"></path>
+<path d="" fill="none" stroke="#ff3333" stroke-width="2" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="bevel" stroke-miterlimit="10" clip-path="url(#zr2322-clip-4)"></path>
+<path d="M -5 -5 L 429.2969 -5 L 429.2969 17.2 L -5 17.2 L -5 -5 Z" fill="rgba(0,0,0,0)" fill-opacity="1" stroke="#ccc" stroke-width="0" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,51.3515625,5)" clip-path="none"></path>
+<path d="M 0 7 L 25 7" fill="#000" fill-opacity="1" stroke="#ffff00" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,51.8515625,4.099999904632568)" clip-path="none"></path>
+<path d="M 18.1 7 A 5.6 5.6 0 1 0 18.1 7.0006" fill="#fff" fill-opacity="1" stroke="#ffff00" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,51.8515625,4.099999904632568)" clip-path="none"></path>
+<text alignment-baseline="middle" x="30" y="7" fill="#333" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,51.8515625,4.099999904632568)" clip-path="none" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial;">
+<tspan alignment-baseline="middle" text-anchor="start" x="30" y="7">Set point (VW0u0)</tspan>
+</text>
+<path d="M 0 7 L 25 7" fill="#000" fill-opacity="1" stroke="#0033cc" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,190.396484375,4.099999904632568)" clip-path="none"></path>
+<path d="M 18.1 7 A 5.6 5.6 0 1 0 18.1 7.0006" fill="#fff" fill-opacity="1" stroke="#0033cc" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,190.396484375,4.099999904632568)" clip-path="none"></path>
+<text alignment-baseline="middle" x="30" y="7" fill="#333" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,190.396484375,4.099999904632568)" clip-path="none" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial;">
+<tspan alignment-baseline="middle" text-anchor="start" x="30" y="7">Process Value (VW6u0)</tspan>
+</text>
+<path d="M 0 7 L 25 7" fill="#000" fill-opacity="1" stroke="#ff3333" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,358.947265625,4.099999904632568)" clip-path="none"></path>
+<path d="M 18.1 7 A 5.6 5.6 0 1 0 18.1 7.0006" fill="#fff" fill-opacity="1" stroke="#ff3333" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,358.947265625,4.099999904632568)" clip-path="none"></path>
+<text alignment-baseline="middle" x="30" y="7" fill="#333" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,358.947265625,4.099999904632568)" clip-path="none" style="font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 12px; line-height: normal; font-family: Arial;">
+<tspan alignment-baseline="middle" text-anchor="start" x="30" y="7">Output (VW8u0)</tspan>
+</text>
+<path d="M -14.4391 -15 L 14.439 -15 L 14.439 15 L -14.4391 15 L -14.4391 -15 Z" fill="rgba(0, 0, 0, 0.002)" fill-opacity="1" stroke="#ccc" stroke-width="0" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,482.5609436035156,285)" clip-path="none"></path>
+<path d="M -5 -5 L 299 -5 L 299 23 L -5 23 L -5 -5 Z" fill="rgba(0,0,0,0)" fill-opacity="1" stroke="#ccc" stroke-width="0" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,5,277)" clip-path="none"></path>
+<path d="M 0.3982 6.2716 L -5.4362 6.2716 C -5.7062 6.2716 -5.9912 6.0406 -5.9912 5.7287 L -5.9912 -6.0331 C -5.9912 -6.3031 -5.7122 -6.5761 -5.4362 -6.5761 L 4.6608 -6.5761 C 4.9398 -6.5761 5.2157 -6.3031 5.2157 -6.0331 L 5.2157 0.9472 C 5.2157 1.1271 5.4797 1.3101 5.6657 1.3101 C 5.8517 1.3101 6.1156 1.1301 6.1156 0.9472 L 6.1156 -6.0331 C 6.1156 -6.8011 5.3567 -7.5 4.6128 -7.5 L -5.4362 -7.5 C -6.2221 -7.5 -6.9391 -6.8011 -6.9391 -6.0331 L -6.9391 5.6387 C -6.9391 6.7276 -6.3391 7.1835 -5.4362 7.1835 L 0.4912 7.1835 C 0.6772 7.1835 0.7702 6.9586 0.7702 6.7306 C 0.7702 6.5506 0.5842 6.2716 0.3982 6.2716 Z M -3.9994 2.054 C -4.1853 2.054 -4.3683 2.312 -4.3683 2.492 C -4.3683 2.672 -4.1823 2.93 -3.9994 2.93 L 0.2422 2.93 C 0.4282 2.93 0.6112 2.756 0.6112 2.528 C 0.6202 2.243 0.4252 2.051 0.2422 2.051 L -3.9994 2.051 Z M 3.5479 -0.6817 C 3.5479 -0.8617 3.3619 -1.1196 3.1789 -1.1196 L -4.0923 -1.1196 C -4.2783 -1.1196 -4.4643 -0.8617 -4.4643 -0.6817 C -4.4643 -0.5017 -4.2783 -0.2437 -4.0923 -0.2437 L 3.1309 -0.2437 C 3.3169 -0.2407 3.5479 -0.4987 3.5479 -0.6817 Z M 3.2719 -4.2963 L -3.9994 -4.2963 C -4.1853 -4.2963 -4.3683 -4.0383 -4.3683 -3.8584 C -4.3683 -3.6784 -4.1823 -3.4204 -3.9994 -3.4204 L 3.2239 -3.4204 C 3.4549 -3.4204 3.6409 -3.6784 3.6409 -3.8584 C 3.6409 -4.0383 3.4549 -4.2963 3.2719 -4.2963 Z M 6.8536 7.0006 L 5.9057 6.0586 C 6.1816 5.6987 6.3436 5.2487 6.3436 4.7628 C 6.3436 3.5809 5.3807 2.621 4.1898 2.621 C 2.999 2.621 2.036 3.5809 2.036 4.7628 C 2.036 5.9447 2.999 6.9046 4.1898 6.9046 C 4.6788 6.9046 5.1287 6.7426 5.4917 6.4696 L 6.4396 7.4145 C 6.5536 7.5285 6.7396 7.5285 6.8536 7.4145 C 6.9676 7.3005 6.9676 7.1145 6.8536 7.0006 Z M 4.1898 6.2926 C 3.3409 6.2926 2.651 5.6087 2.651 4.7628 C 2.651 3.9169 3.3409 3.2329 4.1898 3.2329 C 5.0387 3.2329 5.7287 3.9169 5.7287 4.7628 C 5.7287 5.6087 5.0387 6.2926 4.1898 6.2926 Z" fill="none" stroke="#666" stroke-width="1" paint-order="fill" stroke-opacity="1" stroke-dasharray="" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" transform="matrix(1,0,0,1,482.5609436035156,285)" clip-path="none"></path>
+<text alignment-baseline="hanging" x="0" y="0" fill="rgb(0,0,0)" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,5,277)" clip-path="none" style="font-style: normal; font-variant-caps: normal; font-weight: bolder; font-stretch: normal; font-size: 18px; line-height: normal; font-family: Arial;">
+<tspan alignment-baseline="hanging" text-anchor="start" x="0" y="0">Trend view at 1s intervals (50s tot)</tspan>
+</text>
+<defs>
+<clipPath id="zr2322-clip-2">
+<path d="M 10.54 76.5 L 484.84000000000003 76.5 L 484.84000000000003 231 L 10.54 231 L 10.54 76.5 Z" fill="#000" fill-opacity="1" stroke="none"></path>
+</clipPath>
+<clipPath id="zr2322-clip-3">
+<path d="M 10.54 76.5 L 484.84000000000003 76.5 L 484.84000000000003 231 L 10.54 231 L 10.54 76.5 Z" fill="#000" fill-opacity="1" stroke="none"></path>
+</clipPath>
+<clipPath id="zr2322-clip-4">
+<path d="M 10.54 76.5 L 484.84000000000003 76.5 L 484.84000000000003 231 L 10.54 231 L 10.54 76.5 Z" fill="#000" fill-opacity="1" stroke="none"></path>
+</clipPath>
+</defs>
+</svg>
+</DIV>
+<DIV xmlns="http://www.w3.org/1999/xhtml"></DIV>
+</DIV>	
+
+
+<DIV class="data" style="display:none">
+
+
+<DIV id="1u49w3zajmjnk" tag_id="5ae94e8b-2803-4e56-a3e9-1c1d9f6c0b3b" show_function="_callback_trendRefreshSelfData" class="server_binding trend_data" show_param="1u49w3zajmjnk" range="132" address="0" type="4" length="1" vm_name="Set point" device_name="Local Device" block_number="0" block_type_name="VW" block_format="Unsigned" decimal="1" item_color="-256"></DIV>
+
+
+<DIV id="11jq7hakyxx4w" tag_id="423ffb80-016e-4778-ab1d-1e784ce01ba4" show_function="_callback_trendRefreshSelfData" class="server_binding trend_data" show_param="11jq7hakyxx4w" range="132" address="48" type="4" length="1" vm_name="Process Value" device_name="Local Device" block_number="6" block_type_name="VW" block_format="Unsigned" decimal="1" item_color="-16763956"></DIV>
+
+
+<DIV id="1zkmfc08sw4g" tag_id="3a150a00-9932-410b-93c8-54f4afcd8846" show_function="_callback_trendRefreshSelfData" class="server_binding trend_data" show_param="1zkmfc08sw4g" range="132" address="64" type="4" length="1" vm_name="Output" device_name="Local Device" block_number="8" block_type_name="VW" block_format="Unsigned" decimal="1" item_color="-52429"></DIV>
+
+
+</DIV>
+
+
+</DIV>
+
+
+<SCRIPT type="text/javascript" id="script_4aeaa3b1fe68b575a022">	        /**init trendView chart;id from jstl */        trendJs.initChart("4aeaa3b1fe68b575a022");</SCRIPT>
+
+
+
+
+<DIV class="server_binding" style="position: absolute; left: 250px; top: 110px; border: 0px solid green; height: 238px; width: 93px; transform: rotate(0deg); z-index: 46;" comp_type="AnalogBarComponent" show_function="_callback_loadAnalogBarComponent" range="132" address="48" type="4" length="1" show_param="4a089b8fd6daacd40b83" valbarcol="rgb(255, 0, 0);" max_val="720" min_val="100" min_scale="62" scale_height="23.8" bar_value="410" id="4a089b8fd6daacd40b83" degree="0" tag_id="423ffb80-016e-4778-ab1d-1e784ce01ba4" device_name="" block_format="Unsigned" decimal="1" scope_color="720.0,100.0,100.0:286.0:-8355712,286.62:472.0:-12156236,472.62:720.0:-5952982">    
+
+
+<DIV style="border: 0px solid red; height: 238px; width: 41px;" class="bar">        
+
+
+<STYLE>            .bar ul > li {position: absolute;border-top:1px solid black;width:5px;}               .bar ul > li:first-child{width:15px;}               .bar ul > li:nth-last-child(5n+1){width:15px;}              .bar ul > li:last-child{margin-top:1px;width:15px;}             .bar ul > li > a {display:block;position:absolute;height:0px;line-height:0px;color:black;cursor:default;text-decoration:none;font-size:15px;margin-left:17px;}         </STYLE>         
+
+
+<DIV style="float:right;margin:0px;">            
+
+
+<UL style="float:left;list-style:none;margin:0px; padding:0px;text-align:left;">                                                                                                                                                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<LI style="height: 23.8px; top: 0px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">720</A>
+</LI>
+<LI style="height: 23.8px; top: 23.8px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">658</A>
+</LI>
+<LI style="height: 23.8px; top: 47.6px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">596</A>
+</LI>
+<LI style="height: 23.8px; top: 71.4px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">534</A>
+</LI>
+<LI style="height: 23.8px; top: 95.2px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">472</A>
+</LI>
+<LI style="height: 23.8px; top: 119px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">410</A>
+</LI>
+<LI style="height: 23.8px; top: 142.8px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">348</A>
+</LI>
+<LI style="height: 23.8px; top: 166.60000000000002px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">286</A>
+</LI>
+<LI style="height: 23.8px; top: 190.40000000000003px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">224</A>
+</LI>
+<LI style="height: 23.8px; top: 214.20000000000005px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">162</A>
+</LI>
+<LI style="height: 1px; top: 238px; border-color: rgb(0, 0, 0);">
+<A style="font-style: normal; font-weight: 400; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">100</A>
+</LI>
+</UL>        
+
+
+</DIV>        
+
+
+<DIV id="barBg" class="barBg" style="width: 41px; background-color: rgb(70, 130, 180); height: 100%; float: left; border: 1px solid rgb(0, 0, 0);"></DIV>         
+
+
+<DIV class="whiteBg" style="width: 41px; height: 118px; position: absolute; background-color: white; top: 1px; left: 1px;"></DIV>        
+
+
+<INPUT type="hidden" class="k" value="0/">        <INPUT type="hidden" class="analogValueColor" value="">    
+
+
+</DIV>
+
+
+</DIV>
+
+
+<DIV comp_type="RectangleComponent" style="border: 1px solid rgb(0, 0, 0); position: absolute; left: 266px; top: 17px; width: 14px; height: 61px; background-size: 14px 62px; transform: rotate(0deg); zoom: 1; opacity: 1; z-index: 6; background-color: rgb(204, 204, 204); background-repeat: no-repeat no-repeat;" id="43989d7916f5202a347f" degree="0"></DIV>
+
+
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 688px; top: 130px; width: 64px; height: 64px; background-size: 64px 65px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/pb_stop.png); cursor: pointer; font-style: normal; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); z-index: 7; background-repeat: no-repeat no-repeat;" range="131" address="0" type="1" length="1" on_text="AUTO" off_text="MANUAL" id="4962b2c28484f7538ecb" show_param="4962b2c28484f7538ecb" degree="0" tag_id="Private Tag" device_name="" on_image="img/pb_go.png" off_image="img/pb_stop.png" bg_image="img/pb_stop.png" mode="true" text_align="center" onclick="renderJs.setDigitalData(this)">
+
+
+<P style="width: 64px; height: 64px; display: table-cell; vertical-align: middle; text-align: center;">MANUAL</P>
+
+
+</DIV>
+
+
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 99px; top: 339px; width: 99px; height: 34px; background-size: 99px 35px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/86326007.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 8; background-repeat: no-repeat no-repeat;" range="129" address="0" type="1" length="1" on_text="" off_text="" id="4bdcb0c93d032e54b010" show_param="4bdcb0c93d032e54b010" degree="0" tag_id="Private Tag" device_name="" on_image="img/Default.png" off_image="img/86326007.png" bg_image="img/86326007.png" mode="false" text_align="center">
+
+
+<P style="width: 99px; height: 34px; display: table-cell; vertical-align: middle; text-align: center;"></P>
+
+
+</DIV>
+
+
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 99px; top: 263px; width: 99px; height: 34px; background-size: 99px 35px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/86326007.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 9; background-repeat: no-repeat no-repeat;" range="129" address="1" type="1" length="1" on_text="" off_text="" id="479fbd08f4ee051c5c6a" show_param="479fbd08f4ee051c5c6a" degree="0" tag_id="Private Tag" device_name="" on_image="img/Default.png" off_image="img/86326007.png" bg_image="img/86326007.png" mode="false" text_align="center">
+
+
+<P style="width: 99px; height: 34px; display: table-cell; vertical-align: middle; text-align: center;"></P>
+
+
+</DIV>
+
+
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 99px; top: 185px; width: 99px; height: 34px; background-size: 99px 35px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/86326007.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 10; background-repeat: no-repeat no-repeat;" range="129" address="7" type="1" length="1" on_text="" off_text="" id="49dda1c401fb0c3db38b" show_param="49dda1c401fb0c3db38b" degree="0" tag_id="Private Tag" device_name="" on_image="img/Default.png" off_image="img/86326007.png" bg_image="img/86326007.png" mode="false" text_align="center">
+
+
+<P style="width: 99px; height: 34px; display: table-cell; vertical-align: middle; text-align: center;"></P>
+
+
+</DIV>
+
+
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 99px; top: 99px; width: 99px; height: 34px; background-size: 99px 35px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/86326007.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 11; background-repeat: no-repeat no-repeat;" range="129" address="8" type="1" length="1" on_text="" off_text="" id="4de48a4de99a665d3951" show_param="4de48a4de99a665d3951" degree="0" tag_id="Private Tag" device_name="" on_image="img/Default.png" off_image="img/86326007.png" bg_image="img/86326007.png" mode="false" text_align="center">
+
+
+<P style="width: 99px; height: 34px; display: table-cell; vertical-align: middle; text-align: center;"></P>
+
+
+</DIV>
+
+
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 257px; top: 44px; width: 34px; height: 34px; background-size: 34px 35px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/86326007.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 10px; color: rgb(0, 0, 0); z-index: 45; background-repeat: no-repeat no-repeat;" range="129" address="9" type="1" length="1" on_text="" off_text="" id="4e209c734cc2e0b1376d" show_param="4e209c734cc2e0b1376d" degree="0" tag_id="Private Tag" device_name="" on_image="img/Default.png" off_image="img/86326007.png" bg_image="img/86326007.png" mode="false" text_align="center">
+
+
+<P style="width: 34px; height: 34px; display: table-cell; vertical-align: middle; text-align: center;"></P>
+
+
+</DIV>
+
+
+<DIV comp_type="AnalogSliderComponent" show_function="_callback_loadAnalogSliderComponent" class="server_binding analog_slider" maxval="720" minval="100" hdl_img="img/uibg2.png" bar_img="img/uibg5.png" range="132" address="0" type="4" length="1" show_param="448aad8cd00b3714a138" id="448aad8cd00b3714a138" style="position: absolute; left: 422px; top: 109px; width: 24px; height: 238px; background-size: 24px 239px; transform: rotate(0deg); z-index: 12; background-repeat: no-repeat no-repeat;" degree="0" tag_id="5ae94e8b-2803-4e56-a3e9-1c1d9f6c0b3b" device_name="" block_format="Unsigned" decimal="1" mode="true">    
+
+
+<DIV class="analog_slider_comp analog_set_val ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all" style="width: 15px; height: 236px; margin-right: auto; margin-bottom: 0px; margin-left: auto; background-size: 15px 236px; background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/uibg5.png);">
+
+
+<SPAN class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="margin-top: 107px; width: 24px; height: 24px; background-size: 24px 24px; cursor: pointer; background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/uibg2.png);"></SPAN>
+
+
+</DIV>    
+
+
+<INPUT type="hidden" class="analogValue" value="0/">    <INPUT type="hidden" class="analogValueColor" value="">
+
+
+</DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 475px; top: 209px; width: 118px; height: 41px; background-size: 118px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 13; background-repeat: no-repeat no-repeat;" id="4fc59df30e2a6db3f303" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 118px; height: 41px;">Set target level for automatic pump control here</P>
+
+
+</DIV>
+
+
+<DIV comp_type="CircleComponent" style="border: 1px solid rgb(0, 0, 0); border-top-left-radius: 50%; border-top-right-radius: 50%; border-bottom-right-radius: 50%; border-bottom-left-radius: 50%; position: absolute; left: 346px; top: 424px; width: 97px; height: 91px; background-size: 97px 92px; transform: rotate(0deg); zoom: 1; opacity: 1; z-index: 14; background-color: rgb(204, 204, 204); background-repeat: no-repeat no-repeat;" id="4edbb786d5805bf2ae79" degree="0"></DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 354px; top: 451px; width: 84px; height: 41px; background-size: 84px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 15; background-repeat: no-repeat no-repeat;" id="499e9140224786715714" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 84px; height: 41px;">PUMP</P>
+
+
+</DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 637px; top: 90px; width: 167px; height: 41px; background-size: 167px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 16; background-repeat: no-repeat no-repeat;" id="46ccaa31684f9af5d024" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 41px;">Toggle for Pump control mode</P>
+
+
+</DIV>
+
+
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 877px; top: 99px; width: 148px; height: 59px; background-size: 148px 60px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/D4F306E5.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 17; background-repeat: no-repeat no-repeat;" range="129" address="10" type="1" length="1" on_text="NORMAL" off_text="EMERGENCY STOP" id="4632a6bba4c53f4b8c09" show_param="4632a6bba4c53f4b8c09" degree="0" tag_id="Private Tag" device_name="" on_image="img/D2D79FED.png" off_image="img/D4F306E5.png" bg_image="img/D4F306E5.png" mode="false" text_align="center">
+
+
+<P style="width: 148px; height: 59px; display: table-cell; vertical-align: middle; text-align: center;">EMERGENCY STOP</P>
+
+
+</DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 868px; top: 60px; width: 167px; height: 41px; background-size: 167px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 18; background-repeat: no-repeat no-repeat;" id="4edd96b606bc848b4c40" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 41px;">STATUS INFORMATION</P>
+
+
+</DIV>
+
+
+<DIV class="server_binding analog_input" comp_type="AnalogValueComponent" comp_version="8.3" show_function="_callback_analogValue" style="border: 0px solid red; text-align: right; position: absolute; left: 67px; top: 402px; width: 131px; height: 35px; transform: rotate(0deg); z-index: 19;" range="132" address="32" type="4" length="1" show_param="4d77b6085def79842930" id="4d77b6085def79842930" degree="0" tag_id="ec361107-065a-40dd-86d4-225e1205d56b" device_name="" block_format="Unsigned" decimal="1" mode="false" text_align="left">    
+
+
+<STYLE class="invalid4d77b6085def79842930">.invalid4d77b6085def79842930:-moz-placeholder {color: rgb(0,0,0);}.invalid4d77b6085def79842930::-moz-placeholder {color: rgb(0,0,0);}input.invalid4d77b6085def79842930:-ms-input-placeholder {color: rgb(0,0,0);}input.invalid4d77b6085def79842930::-webkit-input-placeholder {color: rgb(0,0,0);}</STYLE>
+
+
+<DIV class="valueText" style="">        
+
+
+<INPUT class="inputVal invalid4d77b6085def79842930" type="text" size="5" value="" style="width: 100%; height: 100%; text-align: left; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0);">        <SPAN class="unit" style="position: absolute; top: 10.5px; font-style: normal; font-family: Arial; font-size: 14px; line-height: 14px; color: rgb(0, 0, 0);">pulses/s</SPAN>    
+
+
+</DIV>    
+
+
+<DIV class="notice" style="color: red; font-style: normal; font-family: Arial; font-size: 14px;"></DIV>
+
+
+</DIV>
+
+
+<SCRIPT type="text/javascript" id="script_4d77b6085def79842930"></SCRIPT>
+
+
+<DIV comp_type="ImageComponent" style="background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/EAA03FDC.png); background-size: 34px 52px; position: absolute; left: 255px; top: 394px; width: 34px; height: 51px; transform: rotate(0deg); z-index: 20; background-repeat: no-repeat no-repeat;" bg_image="img/EAA03FDC.png" id="4b4a8cfb7b95d723a0bf" degree="0"></DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 0px; top: 402px; width: 67px; height: 35px; background-size: 67px 36px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 21; background-repeat: no-repeat no-repeat;" id="495e8f20ab0372a55871" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 67px; height: 35px;">Out flow</P>
+
+
+</DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 64px; top: 336px; width: 167px; height: 41px; background-size: 167px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 22; background-repeat: no-repeat no-repeat;" id="4d67acb5850708f64064" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 41px;">Cap.Sens 1</P>
+
+
+</DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 59px; top: 260px; width: 167px; height: 41px; background-size: 167px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 23; background-repeat: no-repeat no-repeat;" id="4487b13f00f2709a9a40" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 41px;">Cap.Sens 2</P>
+
+
+</DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 64px; top: 181px; width: 167px; height: 41px; background-size: 167px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 24; background-repeat: no-repeat no-repeat;" id="4e99acab7120f91013b2" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 41px;">Cap.Sens 3</P>
+
+
+</DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 65px; top: 98px; width: 167px; height: 37px; background-size: 167px 38px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 25; background-repeat: no-repeat no-repeat;" id="42f38724ee00d45e30df" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 37px;">Cap.Sens 4</P>
+
+
+</DIV>
+
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 86px; top: 40px; width: 167px; height: 41px; background-size: 167px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 26; background-repeat: no-repeat no-repeat;" id="430c96bfc4767932de10" degree="0" text_align="center">    
+
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 41px;">Overflill sensor</P>
+
+
+</DIV>
+
+
+<DIV comp_type="ImageComponent" style="background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/C8DC8A14.png); background-size: 49px 39px; position: absolute; left: 208px; top: 263px; width: 49px; height: 38px; transform: rotate(0deg); z-index: 27; background-repeat: no-repeat no-repeat;" bg_image="img/C8DC8A14.png" id="483fb476196806809699" degree="0"></DIV>
+
+
+<DIV comp_type="ImageComponent" style="background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/C8DC8A14.png); background-size: 49px 39px; position: absolute; left: 208px; top: 335px; width: 49px; height: 38px; transform: rotate(0deg); z-index: 28; background-repeat: no-repeat no-repeat;" bg_image="img/C8DC8A14.png" id="47708ca14e9be8c6df92" degree="0"></DIV>
+
+
+<DIV comp_type="ImageComponent" style="background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/C8DC8A14.png); background-size: 49px 39px; position: absolute; left: 204px; top: 181px; width: 49px; height: 38px; transform: rotate(0deg); z-index: 29; background-repeat: no-repeat no-repeat;" bg_image="img/C8DC8A14.png" id="403ba98e947086094cc7" degree="0"></DIV>
+
+
+<DIV comp_type="ImageComponent" style="background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/C8DC8A14.png); background-size: 49px 39px; position: absolute; left: 204px; top: 97px; width: 49px; height: 38px; transform: rotate(0deg); z-index: 30; background-repeat: no-repeat no-repeat;" bg_image="img/C8DC8A14.png" id="4af29e31c1788e269abe" degree="0"></DIV>
+
+
+
+
+<DIV comp_type="RectangleComponent" style="border: 1px solid rgb(0, 0, 0); position: absolute; left: 248px; top: 29px; width: 47px; height: 366px; background-size: 47px 367px; transform: rotate(0deg); zoom: 1; opacity: 1; z-index: 2; background-repeat: no-repeat no-repeat;" id="4d1bb5c2c7b8cb5bc9f4" degree="0"></DIV>
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 462px; top: 90px; width: 84px; height: 41px; background-size: 84px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 31; background-repeat: no-repeat no-repeat;" id="4bae9cea1a76b14437d0" degree="0" text_align="center">    
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 84px; height: 41px;">Max depth for analog sensor range</P>
+
+</DIV>
+
+<DIV comp_type="ImageComponent" style="background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/2D491AB6.png); background-size: 84px 85px; position: absolute; left: 230px; top: 430px; width: 84px; height: 84px; transform: rotate(0deg); z-index: 32; background-repeat: no-repeat no-repeat;" bg_image="img/2D491AB6.png" id="4570a643e0a8041738e4" degree="0"></DIV>
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 483px; top: 0px; width: 447px; height: 41px; background-size: 447px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 24px; color: rgb(0, 0, 0); z-index: 33; background-repeat: no-repeat no-repeat;" id="49df8a1fb50bf3c35ff3" degree="0" text_align="center">    
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 447px; height: 41px;">Water control station</P>
+
+</DIV>
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 230px; top: 451px; width: 84px; height: 41px; background-size: 84px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 34; background-repeat: no-repeat no-repeat;" id="4cfd8c5271c661412f90" degree="0" text_align="center">    
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 84px; height: 41px;">TANK2</P>
+
+</DIV>
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 67px; top: 467px; width: 84px; height: 41px; background-size: 84px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 35; background-repeat: no-repeat no-repeat;" id="4a2aacae80235849d184" degree="0" text_align="center">    
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 84px; height: 41px;">TANK1</P>
+
+</DIV>
+
+<DIV comp_type="ImageComponent" style="background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/EAA03FDC.png); background-size: 34px 44px; position: absolute; left: 317px; top: 451px; width: 34px; height: 43px; transform: rotate(90deg); z-index: 43; background-repeat: no-repeat no-repeat;" bg_image="img/EAA03FDC.png" id="4d09aa9343844976c1af" degree="90"></DIV>
+
+
+<svg comp_type="LineComponent" id="4d18a94cd635928c6bac" version="1.1" baseProfile="tiny" width="100%" height="100%" style="position: absolute; top: 0px; left: 0px; z-index: 37; pointer-events: none;" xmlns="http://www.w3.org/2000/svg">
+
+<g>    
+
+<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-dasharray="0" filter="Alpha(opacity=100)" opacity="1" points="285,27 285,27 290,38 290,38 295,26 295,26 " stroke-linecap="butt"></polyline>
+
+</g>
+
+</svg>
+
+
+<DIV xmlns="http://www.w3.org/1999/xhtml" class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 990px; top: 499px; width: 167px; height: 41px; background-size: 167px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 39; background-repeat: no-repeat no-repeat;" id="47deb117c9407fe130ab" degree="0" text_align="center">    
+
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 167px; height: 41px;">Click to enlarge trend view</P>
+
+</DIV>
+
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 476px; top: 330px; width: 84px; height: 41px; background-size: 84px 42px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 40; background-repeat: no-repeat no-repeat;" id="4bfdb4ef1dbe0b379a7c" degree="0" text_align="center">    
+<P style="display: table-cell; vertical-align: middle; text-align: center; width: 84px; height: 41px;">Min depth for analog sensor range</P>
+</DIV>
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 250px; top: 339px; width: 46px; height: 54px; background-size: 46px 55px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/4988926F.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 42; background-repeat: no-repeat no-repeat;" range="129" address="0" type="1" length="1" on_text="" off_text="" id="4813ac3b54b4860a07c9" show_param="4813ac3b54b4860a07c9" degree="0" tag_id="Private Tag" device_name="" on_image="img/Default.png" off_image="img/4988926F.png" bg_image="img/4988926F.png" mode="false" text_align="center">
+<P style="width: 46px; height: 54px; display: table-cell; vertical-align: middle; text-align: center;"></P>
+</DIV>
+<DIV comp_type="CustomizedComponent" show_function="_callback_loadCustomizedComponent" class="server_binding textCenter" style="position: absolute; left: 250px; top: 60px; width: 46px; height: 54px; background-size: 46px 55px; transform: rotate(0deg); background-image: url(file:///C:/Users/annia024/Osloskolen/KUB-TKL-2ELR%20-%20Automatiseringssystemer/vann-stasjonen/LWETankExample/lwe1/img/4988926F.png); cursor: auto; font-style: normal; font-family: Arial; font-size: 14px; color: rgb(0, 0, 0); z-index: 44; background-repeat: no-repeat no-repeat;" range="129" address="8" type="1" length="1" on_text="" off_text="" id="4fdbab01928d8832dc72" show_param="4fdbab01928d8832dc72" degree="0" tag_id="Private Tag" device_name="" on_image="img/0B1114AF.png" off_image="img/4988926F.png" bg_image="img/4988926F.png" mode="false" text_align="center">
+<P style="width: 46px; height: 54px; display: table-cell; vertical-align: middle; text-align: center;"></P>
+</DIV>
+<svg comp_type="LineComponent" id="4e5bb8d8ae7bb6f496e0" version="1.1" baseProfile="tiny" width="100%" height="100%" style="position: absolute; top: 0px; left: 0px; z-index: 35;pointer-events: none" xmlns="http://www.w3.org/2000/svg">
+<g>    
+<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-dasharray="0" filter="Alpha(opacity=100)" opacity="1" points="396,424 397,2 288,2 288,2 289,35 289,35 " stroke-linecap="butt"></polyline>
+</g>
+</svg>
+<svg comp_type="LineComponent" id="494aa2c74786d98ebc65" version="1.1" baseProfile="tiny" width="100%" height="100%" style="position: absolute; top: 0px; left: 0px; z-index: 37;pointer-events: none">
+<g>    
+<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-dasharray="7 5" filter="Alpha(opacity=100)" opacity="1" points="338,108 457,107 " stroke-linecap="butt"></polyline>
+</g>
+</svg>
+<svg comp_type="LineComponent" id="4b9cadd52b61824af87d" version="1.1" baseProfile="tiny" width="100%" height="100%" style="position: absolute; top: 0px; left: 0px; z-index: 40;pointer-events: none">
+<g>    
+<polyline fill="none" stroke="rgb(0,0,0)" stroke-width="1" stroke-dasharray="7 5" filter="Alpha(opacity=100)" opacity="1" points="339,346 465,346 " stroke-linecap="butt"></polyline>
+</g>
+</svg>
+<DIV class="TextComponent" comp_type="TextComponent" style="overflow: hidden; line-height: 100%; position: absolute; left: 422px; top: 8px; width: 643px; height: 75px; background-size: 643px 76px; transform: rotate(0deg); font-style: normal; font-family: Arial; font-size: 12px; color: rgb(0, 0, 0); z-index: 47; background-repeat: no-repeat no-repeat;" id="4e7e8c73d10ad16a1f9e" degree="0" text_align="left" xmlns="http://www.w3.org/1999/xhtml">    
+<P style="display: table-cell; vertical-align: middle; text-align: left; width: 643px; height: 75px;">Water pump can be controlled manually or automatically to keep the water  at a set target level within the sensor range</P>
+</DIV>
+</DIV>
+    
+
+
+
+
+
+
+
+
+
+
+</BODY>
+</HTML>

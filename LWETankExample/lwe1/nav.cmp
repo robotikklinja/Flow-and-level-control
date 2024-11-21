@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page height="900" maxIndex="1" width="600">
+    <Components>
+        <Component class="com.siemens.logo.udwp.editor.component.NavPageComponent" id="index0" name="nav">
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.BasicProperty$IDProperty" id="PROPERTY_Component_Id" value="nav" value_class="java.lang.String"/>
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.NameProperty" id="PROPERTY_Name" value="Nav Page" value_class="java.lang.String"/>
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.BoundsProperty$MaxSize" id="PROPERTY_MAX_SIZE" value="3000@-@3000" value_class="java.awt.Dimension"/>
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.BoundsProperty$MinSize" id="PROPERTY_MIN_SIZE" value="80@-@80" value_class="java.awt.Dimension"/>
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.BoundsProperty$MaxPosition" id="PROPERTY_MAX_POSITION" value="1450@-@910" value_class="java.awt.Point"/>
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.BoundsProperty$MinPosition" id="PROPERTY_MIN_POSITION" value="0@-@0" value_class="java.awt.Point"/>
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.BoundsProperty$Location" id="PROPERTY_Location" value="0@-@0" value_class="java.awt.Point"/>
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.BoundsProperty$Size" id="PROPERTY_Size" value="600@-@900" value_class="java.awt.Dimension"/>
+            <ComponentProperty class="com.siemens.logo.udwp.editor.component.property.BoundsProperty$Degree" id="PROPERTY_Degree" value="0" value_class="java.lang.Integer"/>
+        </Component>
+    </Components>
+</Page>

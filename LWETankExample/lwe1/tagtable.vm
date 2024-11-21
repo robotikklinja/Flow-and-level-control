@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tVariableTable>
+    <variables>
+        <id>5ae94e8b-2803-4e56-a3e9-1c1d9f6c0b3b</id>
+        <name>Set point</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VW</blockType>
+        <blockNum realvalue="0">0</blockNum>
+        <type realvalue="4">Word</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>4d3ad663-6a8d-42f2-9808-e4165e2fb5aa</id>
+        <name>Manual output</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VW</blockType>
+        <blockNum realvalue="16">2</blockNum>
+        <type realvalue="4">Word</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>ec361107-065a-40dd-86d4-225e1205d56b</id>
+        <name>Frequency</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VW</blockType>
+        <blockNum realvalue="32">4</blockNum>
+        <type realvalue="4">Word</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>423ffb80-016e-4778-ab1d-1e784ce01ba4</id>
+        <name>Process Value</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VW</blockType>
+        <blockNum realvalue="48">6</blockNum>
+        <type realvalue="4">Word</type>
+        <length realvalue="1">1</length>
+    </variables>
+    <variables>
+        <id>3a150a00-9932-410b-93c8-54f4afcd8846</id>
+        <name>Output</name>
+        <deviceName>Local Device</deviceName>
+        <blockType realvalue="132">VW</blockType>
+        <blockNum realvalue="64">8</blockNum>
+        <type realvalue="4">Word</type>
+        <length realvalue="1">1</length>
+    </variables>
+</tVariableTable>

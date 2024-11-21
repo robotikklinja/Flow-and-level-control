@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TagRef>
+    <PageRefs>
+        <PageVm page="main">
+            <TagComp compId="43929545086fddf9a4a6" tagId="4d3ad663-6a8d-42f2-9808-e4165e2fb5aa"/>
+            <TagComp compId="448aad8cd00b3714a138" tagId="5ae94e8b-2803-4e56-a3e9-1c1d9f6c0b3b"/>
+            <TagComp compId="4aeaa3b1fe68b575a022" tagId="5ae94e8b-2803-4e56-a3e9-1c1d9f6c0b3b,423ffb80-016e-4778-ab1d-1e784ce01ba4,3a150a00-9932-410b-93c8-54f4afcd8846"/>
+            <TagComp compId="4d77b6085def79842930" tagId="ec361107-065a-40dd-86d4-225e1205d56b"/>
+            <TagComp compId="4a089b8fd6daacd40b83" tagId="423ffb80-016e-4778-ab1d-1e784ce01ba4"/>
+        </PageVm>
+    </PageRefs>
+</TagRef>

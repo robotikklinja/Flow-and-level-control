@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tProjectObj>
+    <name>lwe1</name>
+    <pages>
+        <pageName>main</pageName>
+        <pageTitle>Home Page</pageTitle>
+    </pages>
+    <pages>
+        <pageName>nav</pageName>
+        <pageTitle>Navigator</pageTitle>
+    </pages>
+    <pages>
+        <pageName>tagtable</pageName>
+        <pageTitle>tagtable</pageTitle>
+    </pages>
+    <resolution>
+        <height>700</height>
+        <width>1300</width>
+    </resolution>
+    <version>V1.1.0</version>
+    <type>Siemens</type>
+</tProjectObj>

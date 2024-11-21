@@ -1,0 +1,8 @@
+Målt:
+Pulsene kommer korrekt ut av sensorn, og den er riktig inkoblet, ser en clean 5V firkantbølge
+
+Problem:
+Den har ikke nok signalstrøm og klarer ikke å tenne lysdiode i optocoupler, den gir 0,11mA og spenningen dropper til 2,1V når den prøver
+(når jeg gir optocouplern 5v fra psu så trekker optocouplern 7,8mA)
+
+Fant ut av det. Den var NPN og jeg såg strømmen gjennom pull up. Nå koblet via en optocoupler for å snu signalet. Virker
